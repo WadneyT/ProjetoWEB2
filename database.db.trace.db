@@ -1,0 +1,7 @@
+2026-09-11 20:01:47.079016-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USUARIO (ID, NOME, USERNAME, EMAIL) VALUES\000d\000a(1, 'Wellen', 'wellen01', 'wellen@email.com'),\000d\000a(2, 'Joao Silva', 'joao123', 'joao@email.com'),\000d\000a(3, 'Maria Oliveira', 'maria01', 'maria@email.com'),\000d\000a(4, 'Carlos Santos', 'carlos123', 'carlos@email.com'),[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO USUARIO (ID, NOME, USERNAME, EMAIL) VALUES
+(1, 'Wellen', 'wellen01', 'wellen@email.com'),
+(2, 'Joao Silva', 'joao123', 'joao@email.com'),
+(3, 'Maria Oliveira', 'maria01', 'maria@email.com'),
+(4, 'Carlos Santos', 'carlos123', 'carlos@email.com'), [42001-240]
